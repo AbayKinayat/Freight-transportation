@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузовые перевозки</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__information-block_wrapper">
+            <div class="header__information-block">
+                <span>РУС ENG FR</span>
+                <span>8 (800) 123-45-67</span>
+                <span>sales@log.ru</span>
+            </div>
+        </div>
+        <div class="header__block2_wrapper">
+            <div class="header__block2">
+                <div class="header__block3">
+                    <div class="logo-box">
+                        <img class="logo" src="images/header/logo.svg" alt="logo">
+                        <div class="block2__vertical-line"></div>
+                        <img class="geodates-icon" src="images/header/placeholder.svg" alt="geodates icon">
+                        <a href="#" class="header__us-office">Наши офисы</a>
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#services" class="header__nav-links">услуги</a>
+                        <a href="#about-company" class="header__nav-links">О компании</a>
+                        <a href="#" class="header__nav-links">вакансии</a>
+                        <a href="#contact" class="header__nav-links">контакты</a>
+                    </nav>
+                    <nav class="burger-nav">
+                        <div class="burger-nav__lines"></div>
+                    </nav>
+                </div>
+                <div class="nav-inner">
+                    <a href="#services" class="header__nav-links burger-links">услуги</a>
+                    <a href="#about-company" class="header__nav-links burger-links">О компании</a>
+                    <a href="#" class="header__nav-links burger-links">вакансии</a>
+                    <a href="#contact" class="header__nav-links burger-links">контакты</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__inner">
+            <div class="header__about-us">
+                <h1 class="header__title">Грузовые перевозки</h1>
+                <p class="header__subtitle">Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов</p>
+            </div>
+        </div>
+    </header>
+    <div class="nav__wrapper"></div>
+    <section  class="section-one">
+        <div class="section-one__background-color_gray background-color-left_gray"></div>
+        <div class="section-one__background-color_gray background-color-right_gray"></div>
+        <div class="section-one__inner">
+            <div class="section-one__cargo-transportation-content">
+                <h2 class="section-one__title section__title">грузоперевозки
+                    по европе</h2>
+                <p class="section-one__cargo-transportation-text">Страны Евросоюза, а также Украина,<br>
+                    Белоруссия со всеми документами.</p>
+                <a href="https://www.w3schools.com/css/css3_buttons.asp"><button class="section-one__button">подробнее</button></a>
+            </div>
+            <div class="section-one__slider-container">
+                <div class="slider">
+                    <div class="section-one__image-box item">
+                        <img src="images/section-one/truck.png" alt="truck" class="section-one__truck-image">
+                    </div>
+                    <div class="section-one__image-box item">
+                        <img src="images/section-one/car.png" alt="truck" class="section-one__truck-image">
+                    </div>
+                    <div class="section-one__image-box item">
+                        <img src="images/section-one/truck-white.png" alt="truck" class="section-one__truck-image">
+                    </div>
+                </div>
+                <div class="section-one__slider-box">
+                    <div class="slider-right previous" onclick="previousSlide()">
+                        <span class="slider-text">след</span>
+                        <img src="images/section-one/arrow-right.svg" alt="arrow" class="slider-arrow-right">
+                    </div>
+                    <div class="slider-left next" onclick="nextSlide()">
+                        <img src="images/section-one/arrow-left.svg" alt="arrow" class="slider-arrow-left">
+                        <span class="slider-text">назад</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="section-two">
+        <div class="section-two__inner">
+            <h2 class="section-two__title section__title">услуги</h2>
+            <div class="all-services">
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=uVPoGMu3LQo"><div class="all-services__item">
+                    <div class="all-service__circle"></div>
+                    <img src="images/section-two/airplane.svg" alt="eirplane" class="all-secrvices__eirplane">
+                    <span class="all-services__text">Авиаперевозки</span>
+                </div></a>
+                
+            </div>
+        </div>
+    </section>
+    <section id="about-company" class="section-three">
+        <div class="section-three__inner">
+            <div class="section-three_about-company">
+                <h2 class="section__title">О компании</h2>
+                <p class="section-three__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+            </div>
+            <div class="section-three_company-statistics">
+                <div class="section-three__statistic-box">
+                    <span class="statistic-number">48</span>
+                    <span class="statistic-title">офисов</span>
+                    <span class="statistic-subtitle">В Европе и СНГ</span>
+                </div>
+                <div class="section-three__statistic-box">
+                    <span class="statistic-number">361</span>
+                    <span class="statistic-title">грузовиков</span>
+                    <span class="statistic-subtitle">Volvo, Scania</span>
+                </div>
+                <img src="images/section-three/truck.png" alt="truck" class="section-three__statistic-image">
+                <img src="images/section-three/truck.png" alt="truck" class="section-three__statistic-image">
+                <div class="section-three__statistic-box">
+                    <span class="statistic-number">1500</span>
+                    <span class="statistic-title">сотрудников</span>
+                    <span class="statistic-subtitle">профессионалов</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="section-three__square_gray"></div>
+    </section>
+    <section class="section-four">
+        <iframe class="section-four__yandex-maps" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad193c60f040ea3a6d65ec9de006aed5b474af7c2f9f2b5f6aa0df8a4c391c62c&amp;source=constructor" frameborder="0"></iframe>
+    </section>
+    <footer id="contact" class="footer">
+        <div class="footer__inner">
+            <div class="footer__content_left">
+                <img class="logo" src="images/footer/footer__logo.svg" alt="logo">
+                <div class="footer__address">
+                    <span class="footer__text address">123456, Санкт-Петербург, Невский пр-кт 127</span>
+                    <a class="footer__link" href="https://asia-log.ru/"><span class="footer__text footer__link">sales@log.ru</span></a>
+                </div>
+            </div>
+            <div class="footer__content_right">
+                <div class="footer__number">
+                    <span class="footer__text">+7 (812) 344-56-65</span>
+                    <span class="footer__text">+7 (812) 344-56-65</span>
+                </div>
+                <a href="https://d-e-n.ru/" class="footer__link footer__devoloper"><span class="footer__text footer__link">Разработано - D-E-N.ru</span></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="slider.js"></script>
+    <script src="js/nav-burger.js"></script>
+</body>
+</html>
